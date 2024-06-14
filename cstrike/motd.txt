@@ -1,0 +1,9 @@
+<html>
+    <head>
+        <title>Bienvenido a Zona Oeste Strike (Server 1.6)</title>
+    </head>
+    <body>
+        <h1>Bienvenido a Zona Oeste Strike (Server 1.6)</h1>
+        <p>¡Es mejor balas virtuales, que reales!</p>
+    </body>
+</html>
