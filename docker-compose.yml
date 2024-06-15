@@ -1,6 +1,6 @@
 services:
   csserver:
-    image: cajuclc/cstrike-docker
+    build: .
     ports:
       - "27015:27015/udp"
     volumes:
