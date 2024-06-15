@@ -1,0 +1,11 @@
+services:
+  csserver:
+    image: cajuclc/cstrike-docker
+    ports:
+      - "27015:27015/udp"
+    volumes:
+      - ./cstrike/maps:/home/csserver/cstrike/cstrike/maps
+      - ./cstrike/server.cfg:/home/csserver/cstrike/cstrike/server.cfg
+      - ./cstrike/mapcycle.txt:/home/csserver/cstrike/cstrike/mapcycle.txt
+      - ./cstrike/motd.txt:/home/csserver/cstrike/cstrike/motd.txt
+    container_name: zo_strike
